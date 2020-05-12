@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:margin="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="scripts/function.js">
+
+    </script>
+    <style>
+        #release{
+            width:400px;
+            height:280px;
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            margin-left:-100px;
+            margin-top:-140px;
+            border:1px;
+            align:center;
+
+
+        }
+    </style>
+</head>
+<body>
+<div id="release" >
+<form action="">
+    <div>商品名称</div><input type="text" maxlength="6"/><br><br>
+    <div>商品价格</div><input type="text" onkeyup="value=value.replace(/[^\d]/g,'') "
+                          onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" /><br><br>
+    <div>更多信息</div><textarea  cols="30" rows="3" align="center"maxlength="100"></textarea><br><br>
+    <input type="file" value="lalal" name="images" accept="image/*" onchange="fileChange(this)"><br><br>
+
+    <input type="submit" value="提交"/>
+    </form>
+</div>
+
+
+<table border="1" >
+
+    <tr>
+
+    <td>fdhgfdgh</td>
+
+    </tr>
+    <tr>
+        <td>hgfdhd</td>
+        <td>gfdgd</td>
+        <td>gdfg</td>
+    </tr>
+    <tr>
+    <td>fgdgd</td>
+    <td>fdggdf</td>
+    <td>gdfgd</td>
+</tr>
+</table>
+</body>
+</html>
